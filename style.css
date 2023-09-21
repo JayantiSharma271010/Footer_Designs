@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.container {
+  max-width: 100vw;
+  height: 60vh;
+  background-color: #fff;
+  padding: 30px;
+}
+.container .top_banner {
+  width: 60%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 50px;
+  background-color: #e92727;
+  color: #fff;
+  gap: 30px;
+  border-radius: 10px;
+}
+.container .top_banner .leftBanner_content {
+  width: 50%;
+}
+.container .top_banner .leftBanner_content h4 {
+  font-size: 30px;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+.container .top_banner .leftBanner_content p {
+  font-size: 16px;
+  line-height: 120%;
+}
+.container .top_banner .rightBanner_content form input {
+  height: 50px;
+  width: 250px;
+  padding: 10px 30px 10px 10px;
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  outline: #fff;
+  font-size: 16px;
+  opacity: 0.9;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.3);
+}
+.container .top_banner .rightBanner_content form button {
+  width: 120px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  border-radius: 10px;
+  border: 0;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+}
+.container .top_banner .rightBanner_content form button:hover {
+  box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.3);
+}
+.container .main_content {
+  width: 70%;
+  border-bottom: 1px solid #4d4d4d;
+  margin: 80px auto 30px;
+  display: flex;
+  padding-bottom: 30px;
+  justify-content: space-between;
+}
+.container .main_content .first-section {
+  width: 25%;
+}
+.container .main_content .first-section .info_content {
+  margin: 20px 0;
+  color: #4d4d4d;
+  font-size: 16px;
+  line-height: 140%;
+}
+.container .main_content .social_icons .fa {
+  padding: 5px;
+  font-size: 20px;
+  color: #4d4d4d;
+}
+.container ::-moz-placeholder {
+  color: #fff;
+}
+.container ::placeholder {
+  color: #fff;
+}
+.container .second_section {
+  width: 60%;
+}
+.container .second_section .wrap_content {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 60px;
+}
+.container .second_section .wrap_content .menu_list h4 {
+  text-transform: uppercase;
+  color: #4d4d4d;
+  margin-bottom: 15px;
+}
+.container .second_section .wrap_content .menu_list ul li {
+  color: #4d4d4d;
+  margin: 15px 0;
+  list-style: none;
+}
+.container .main_wrap_content {
+  border-bottom: 1px solid #4d4d4d;
+}
+.container .copy_text {
+  text-align: center;
+}
+.container .copy_text p {
+  font-size: 12px;
+  color: #4d4d4d;
+}
+
+.footer1 {
+  font-size: 80px;
+  text-align: center;
+  margin: 20px 0 0;
+}
+
+.footer_name {
+  font-size: 80px;
+  text-align: center;
+}
+
+hr {
+  color: #8d7c7c;
+  margin: 15px 0;
+}
+
+.container2 .main .screen_img {
+  height: 40vh;
+  text-align: center;
+}
+.container2 .footer_content {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.833);
+  padding: 30px;
+  color: white;
+}
+.container2 .main_content {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.container2 .main_content .first_section {
+  width: 40%;
+  margin: 25px auto;
+}
+.container2 .main_content .first_section .logo_text h4 {
+  font-size: 28px;
+  font-weight: normal;
+}
+.container2 .main_content .first_section .info_content {
+  margin: 25px 0;
+}
+.container2 .main_content .first_section .info_content .small {
+  font-size: 12px;
+  font-weight: lighter;
+  margin-top: 5px;
+}
+.container2 .main_content .first_section .btn button {
+  width: 120px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: lighter;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  border-radius: 5px;
+  background: transparent;
+  border: 1px solid white;
+  color: #fff;
+  margin: 12px 0;
+}
+.container2 .main_content .second_section {
+  width: 60%;
+}
+.container2 .main_content .second_section .wrap_content {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 60px;
+}
+.container2 .main_content .second_section .wrap_content .menu_list h4 {
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 15px;
+}
+.container2 .main_content .second_section .wrap_content .menu_list ul li {
+  color: #fff;
+  margin: 15px 0;
+  list-style: none;
+}/*# sourceMappingURL=style.css.map */
